@@ -1,7 +1,7 @@
 #jogo{
   width: 603px;
   height: 600px;
-  border:dotted 3px;
+  border:solid 3px;
   border-color: grey;
 }
 .linha{
