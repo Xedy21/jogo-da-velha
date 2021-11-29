@@ -11,5 +11,19 @@ verificarFimDeJogo();
 
 }});});
 function verificarFimDeJogo(){
+}
 
+function verificaSeTemCasasIguais(numeroPrimeiraCasa, numeroSegundaCasa, numeroTerceiraCasa){
+var primeiraCasa = $("#casa" + numeroPrimeiraCasa);
+var segundaCasa = $("#casa" + numeroSegundaCasa);
+var terceiraCasa = $("#casa" + numeroTerceiraCasa);
+
+ var fundoPrimeiraCasa = $("#casa" + numeroPrimeiraCasa).css("background-image");
+ var fundoSegundaCasa = $("#casa" + numeroSegundaCasa).css("background-image");
+ var fundoTerceiraCasa = $("#casa" + numeroTerceiraCasa).css("background-image");
+
+if ((fundoPrimeiraCasa == fundoSegundaCasa) && (fundoTerceiraCasa == fundoSegundaCasa)  && (fundoPrimeiraCasa != "none" && fundoPrimeiraCasa != "")){
+
+} else{
+  return False;
 }
